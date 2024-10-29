@@ -1,4 +1,5 @@
 ![Diagram](https://www.planttext.com/api/plantuml/png/V99D2i8m48NtESNWlbSGVxeH54JTYOinZX9DapADGX5Fvi8ZUGLR5RLnTFlovdsPbrpFbquHaCC-iqhbg7Uu8MZrhI4NO8WbSGkE2c0-Cnbfv1KCN21UewP5BO-np6fhKvrGxZaOj_dKJn-0RfvRep4OxsJAcBscegWY6fX8VdEcn0SJKr8C25rTJpGeLHfxQo7jnTkmtv8EqK4SkSI2vBpdOIDhXAwQlDy-xTt3f2uXITe_rXSwVhYbKiJg7tQXB2KIN-b2IHBqh_-R-i-kP3qQUTKiFzZJBVUlEkHMzM-_0G00__y30000)
+
 **Lý do chọn đề tài**
 
 • Biểu đồ lớp và sequence giúp mô tả rõ ràng các đối tượng chính và cách chúng tương tác với nhau trong hệ thống. Điều này giúp cho việc phân tích và phát triển hệ thống trở nên dễ dàng hơn.
@@ -81,24 +82,38 @@ Danh sách cơ chế phù hợp
 **3 Các lớp phân tích cho ca sử dụng Payment**
 
 Biểu đồ mô tả hành vi thông qua biểu đồ sequence cho ca sử dụng Payment: 
+
 ![Diagram](https://www.planttext.com/api/plantuml/png/R951RiCW44Ntd09bdmjuKKKENNXHoGhA0IRuMqKouCBOKiwMHOxKAnGdSQtMtY7cyUTzyNsx7n9JvC5rWWo7ADzTtuKh8FfyROtjoRFSrNHro8VACs9B1Zj9ITRL9gKHHpiZ-Y-YYEb2wJbKfH3pFhb_otc5rEXWMCuBFy2VeH5rzPZhGjOn6AIq0lG4gBAG9t2q6F7R94kt8JfY6xnGvHoauPjjvfaroPpmDI0jDWfCjaihwImrsWOhRj7MmyNPTT2YVUuROcpNcbOSWszjTF-0rpDno6McFnJY1m00__y30000)
+
 Employee
+
 o	Thuộc tính: employeeID, name, paymentMethod
+
 o	Nhiệm vụ: Cung cấp thông tin của nhân viên và lựa chọn phương thức thanh toán.
+
 PaymentMethod
+
 o	Thuộc tính: methodType, address, bankName, accountNumber
+
 o	Nhiệm vụ: Xác định phương thức thanh toán cho nhân viên (pick-up, mail, direct deposit).
+
 PaymentService
+
 o	Nhiệm vụ: Xử lý các yêu cầu liên quan đến thanh toán và lưu trữ thông tin phương thức thanh toán.
+
 Database
+
 o	Nhiệm vụ: Lưu trữ và truy xuất thông tin về nhân viên và phương thức thanh toán.
 
+
 Biểu đồ mô tả của các lớp phân tích 
+
 ![Diagram](https://www.planttext.com/api/plantuml/png/X99BJiCm48RtFiKiGMekm09rqIwwe48g5vZO0qJ43pcJI17goRheaNe571FdOIgndDVtpp_sxNBTDeoUMrqBMMFJm5wxslP4y2q02g0nFEpW2Ih3CMbGKmXFx2lp4JCEUqs6NuW_hGgbrsKipcA4hzAZWex1M-yo92hbASoiaYMQh-CVTPJIjeQFhIx9pwLSzaI-g-IlCm3dhGpyrKeFizteTZDkbv2F0TxPQk5eXumbDWdgAVHHH-cA1_DkS-W0IVKur3g5JFSNcLkNsjCZ5SLpTklCwz0mYTsf_JkS38h9wGgv9QE6poF43m000F__0m00)
 
 **4. Phân tích ca sử dụng Maintain Timecard**
 
 Biểu đồ mô tả hành vi thông qua biểu đồ sequence cho ca sử dụng Maintain Timecard :
+
 ![Diagram](https://www.planttext.com/api/plantuml/png/R94nRiCm34LtdeB8tWjuA09N6RmLbNC0Lc9GeRPaKBGBdwr3ZzGhr4hg88sxyZz-FaZVdr_xh2GwzXsGqoHuw8SkpSmmBEFWma1HSTU6dXs9noOgouaSxv0ojit_c6MPmihOlumXfLVAbz3K0Ej5V7XS2Yiyb1FubaR9-97adJsqpJcq5JvBSfmpwYh4KMM6rXR0r1M-i4hWYT6D8aju9S7KQudbwBVvfQCOc927ZkOjid4z3fwKRpgkefOclkykVdSR62BwtnUvCNXAyHIan_5CmtuHBby4y0C00F__0m00)
 
 Biểu đồ mô tả các lớp phân tích 
