@@ -147,20 +147,22 @@ Database (Cơ sở dữ liệu)
 o	Nhiệm vụ: Lưu trữ và truy xuất thông tin thẻ thời gian, số dự án và nhân viên.
 
 **5. Hợp nhất kết quả phân tích**
+
 Dưới đây là mô tả hành vi thông qua biểu đồ sequence cho cả hai ca sử dụng:
 
-Maintain Timecard
+**Maintain Timecard**
 
 ![Diagram](https://www.planttext.com/api/plantuml/png/R94nRiCm34LtdOB8tWjuA09N6Rm5bNC0Lc9GeROaKBG3dor3ZzGhr4hg88spyZz-FaW_v-zj5cGP-awXbSYmwrCN9oALvh6tFc4GsBI-9ulie0b2V4HB6y0CRVCSCyIZNnZpdz4e-87v6kfQgUKYlBpEXHNioWduZ0DdE4N-8gVQvXAQ2lOSBUKCiWXH49vKQmgWwmhUITZJI607vZcyaKhNIucXuDRvjQCOQ9zJXzCQMRaUaaEXkuwRgC6H7hkBtyC6-03kxqNk3DvYE7hkORZGQZiBbozIlm000F__0m00)
 
-Payment
+**Payment**
 
 ![Diagram](https://www.planttext.com/api/plantuml/png/R951RiCW44Ntd09bdmjuKKKENNXHoGhA0IRuMqKouCBOKiwMHOxKAnGdSQtMtY7cyUTzyNsx7n9JvC5rWWo7ADzTtuKh8FfyROtjoRFSrNHro8VACs9B1Zj9ITRL9gKHHpiZ-Y-YYEb2wJbKfH3pFhb_otc5rEXWMCuBFy2VeH5rzPZhGjOn6AIq0lG4gBAG9t2q6F7R94kt8JfY6xnGvHoauPjjvfaroPpmDI0jDWfCjaihwImrsWOhRj7MmyNPTT2YVUuROcpNcbOSWszjTF-0rpDno6McFnG_0000__y30000)
 
-Biểu đồ lớp mô tả các lớp phân tích
+**Biểu đồ lớp mô tả các lớp phân tích**
+
 ![Diagram](https://www.planttext.com/api/plantuml/png/Z5HBQiCm5Dpx55gsu5oW11DekWWqeP10rxByceZOaj7744fFraMFr2jKbYrPiXNeokZD-CsyURP-ltysKc6XT5DdfCPIefUchVaD07rc2AqGZCVT5ZqXofGjCjo0EHwLeEniAos-DS3K7jI5LmPw2y-MeMW318jA6lILIhK-ZOKY-yf6RLSQjTqhaRQrkyMgDz0_1fUicfSkN0lvpiKLUZzxtAvxA4TRhiiQ2iiX5opESD1D2SBxUWwAXPDKMau3UxyXTVGSjenyLo29eAsYd2KwHNcDhHfxEDtQMTQugWH86HTBpAw7nLem8LmpDJfSohh0Zo0wIeQT8qG4cAWSzZ1z0dQQHzF7OPQksogaJrkpz7pOH685UPn_AlvUg-Dqq96wRAYwf-EfyqpZsLh1YGalodi-OJv6x_9QjZPpu19BrrI0uK7t_yWaxfQ1JPnex3lntc4xA-utth4FdhBZy40YdSb43MFmjyHgLKoZHTNu2l2_TW-5Eyxcts1FyEvIe9TBWMupsMpxKTS45hjD47nZl_l8IrJrGXjpCVLNwny0003__mC0)
 
-Các lớp phân tích:
+**Các lớp phân tích:**
 
 Employee (Nhân viên)
 
