@@ -101,6 +101,10 @@ Biểu đồ mô tả của các lớp phân tích
 Biểu đồ mô tả hành vi thông qua biểu đồ sequence cho ca sử dụng Maintain Timecard :
 ![Diagram](https://www.planttext.com/api/plantuml/png/R94nRiCm34LtdeB8tWjuA09N6RmLbNC0Lc9GeRPaKBGBdwr3ZzGhr4hg88sxyZz-FaZVdr_xh2GwzXsGqoHuw8SkpSmmBEFWma1HSTU6dXs9noOgouaSxv0ojit_c6MPmihOlumXfLVAbz3K0Ej5V7XS2Yiyb1FubaR9-97adJsqpJcq5JvBSfmpwYh4KMM6rXR0r1M-i4hWYT6D8aju9S7KQudbwBVvfQCOc927ZkOjid4z3fwKRpgkefOclkykVdSR62BwtnUvCNXAyHIan_5CmtuHBby4y0C00F__0m00)
 
+Biểu đồ mô tả các lớp phân tích 
+
+![Diagram](https://www.planttext.com/api/plantuml/png/Z5F1IiGm5BpdAt9KQ7z0bh9WFGZgPGNFQVhO3JPDUKaA8dwP1p_9Np19cpJTxOAdaddJUJFJzFVxPwyDGsDbHtZ7jAOFSkZK1m3z99IM5ERZOqtlgEXD07icmHqF1aL_38WH4ZZ3LZluIMYpUvs1YdoHMJb2it9yPQKSpDJCU7d_c3pqxJbqKXRrcy9tQ1typ8QT7nMqLhRfe0eSVc9uX1Sh6y3awpu3gxZIMBt4INvpwkmvbrpvRa5p58CHgjzGYiaFWAFWKxMKSWJdESvkbgQ3xAtJYRD0jqERqvVw0hsOAjdeebWNiTM3tpKgCUtHjf72NDkJg2cSMyOQfcCg11SUnl_dqcoyJBLmLjwkTB31TlRIJIxBQbcPRg57ynR8-LVoXAYnERpGp8Un5fBwMRsoTvVQ_tI4_0400F__0m00)
+
 Employee (Nhân viên)
 
 o	Thuộc tính: employeeID, name, timecards
