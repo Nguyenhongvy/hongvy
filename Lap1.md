@@ -97,17 +97,33 @@ Biểu đồ mô tả của các lớp phân tích
 ![Diagram](https://www.planttext.com/api/plantuml/png/X99BJiCm48RtFiKiGMekm09rqIwwe48g5vZO0qJ43pcJI17goRheaNe571FdOIgndDVtpp_sxNBTDeoUMrqBMMFJm5wxslP4y2q02g0nFEpW2Ih3CMbGKmXFx2lp4JCEUqs6NuW_hGgbrsKipcA4hzAZWex1M-yo92hbASoiaYMQh-CVTPJIjeQFhIx9pwLSzaI-g-IlCm3dhGpyrKeFizteTZDkbv2F0TxPQk5eXumbDWdgAVHHH-cA1_DkS-W0IVKur3g5JFSNcLkNsjCZ5SLpTklCwz0mYTsf_JkS38h9wGgv9QE6poF43m000F__0m00)
 
 **4. Phân tích ca sử dụng Maintain Timecard**
+
+Biểu đồ mô tả hành vi thông qua biểu đồ sequence cho ca sử dụng Maintain Timecard :
+![Diagram](https://www.planttext.com/api/plantuml/png/R94nRiCm34LtdeB8tWjuA09N6RmLbNC0Lc9GeRPaKBGBdwr3ZzGhr4hg88sxyZz-FaZVdr_xh2GwzXsGqoHuw8SkpSmmBEFWma1HSTU6dXs9noOgouaSxv0ojit_c6MPmihOlumXfLVAbz3K0Ej5V7XS2Yiyb1FubaR9-97adJsqpJcq5JvBSfmpwYh4KMM6rXR0r1M-i4hWYT6D8aju9S7KQudbwBVvfQCOc927ZkOjid4z3fwKRpgkefOclkykVdSR62BwtnUvCNXAyHIan_5CmtuHBby4y0C00F__0m00)
+
 Employee (Nhân viên)
+
 o	Thuộc tính: employeeID, name, timecards
+
 o	Nhiệm vụ: Quản lý thông tin của nhân viên và các thẻ thời gian của họ.
+
 Timecard (Thẻ thời gian)
+
 o	Thuộc tính: timecardID, startDate, endDate, hoursWorked, chargeNumbers, status
+
 o	Nhiệm vụ: Lưu trữ thông tin về số giờ làm việc của nhân viên trong một khoảng thời gian cụ thể.
+
 ChargeNumber (Số dự án)
+
 o	Thuộc tính: chargeNumberID, description
+
 o	Nhiệm vụ: Định nghĩa các số dự án mà nhân viên có thể ghi nhận số giờ làm việc.
+
 TimecardService (Dịch vụ thẻ thời gian)
+
 o	Nhiệm vụ: Xử lý các yêu cầu liên quan đến thẻ thời gian, như tạo mới, cập nhật và xác nhận thẻ thời gian.
+
 Database (Cơ sở dữ liệu)
+
 o	Nhiệm vụ: Lưu trữ và truy xuất thông tin thẻ thời gian, số dự án và nhân viên.
 
