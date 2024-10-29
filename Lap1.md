@@ -92,6 +92,8 @@ PaymentService
 o	Nhiệm vụ: Xử lý các yêu cầu liên quan đến thanh toán và lưu trữ thông tin phương thức thanh toán.
 Database
 o	Nhiệm vụ: Lưu trữ và truy xuất thông tin về nhân viên và phương thức thanh toán.
+
+Biểu đồ mô tả của các lớp phân tích 
 ![Diagram](https://www.planttext.com/api/plantuml/png/X99BJiCm48RtFiKiGMekm09rqIwwe48g5vZO0qJ43pcJI17goRheaNe571FdOIgndDVtpp_sxNBTDeoUMrqBMMFJm5wxslP4y2q02g0nFEpW2Ih3CMbGKmXFx2lp4JCEUqs6NuW_hGgbrsKipcA4hzAZWex1M-yo92hbASoiaYMQh-CVTPJIjeQFhIx9pwLSzaI-g-IlCm3dhGpyrKeFizteTZDkbv2F0TxPQk5eXumbDWdgAVHHH-cA1_DkS-W0IVKur3g5JFSNcLkNsjCZ5SLpTklCwz0mYTsf_JkS38h9wGgv9QE6poF43m000F__0m00)
 
 **4. Phân tích ca sử dụng Maintain Timecard**
